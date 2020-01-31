@@ -1,0 +1,19 @@
+$base-rem: 10px;
+$spacer: 1.6rem;
+$font-size-base: 1.6rem;
+$container-width: 960px;
+
+html {
+  font-size: $base-rem;
+  color: blue;
+
+  body {
+    font-size: $font-size-base;
+
+    // Don't ever write sass this way though
+    .container {
+      width: $container-width;
+      margin: 0 auto;
+    }
+  }
+}
